@@ -36,7 +36,7 @@
 
 <body>
 
- <div id="o">
+ <div id="o">    
 u
  </div>
 <iframe visibility ="hidden" id="uu" width="Infowindow1" height="Infowindow1">
@@ -260,14 +260,7 @@ var bn = console.log( "package" );
 
 
 
- /*
 
- ( var  in )
-{
-
- for (1 ; . . methodes  .    ( 0,) =; ) {
-markers
- /* */
 for ( methodes = 0; methodes <    4 n ;methodes ++ )
 {
 
@@ -343,10 +336,7 @@ document . getElementByType ( "iframe" ) .setAttribute ( 'href' ,
 
 
  o.on('click', function(e ) {
-
-
-
-
+ 
  var m1 = Markers1 [ ee ] ;
 
 
@@ -385,6 +375,8 @@ o .hasLayer ( m1. m ) == false ;
 }
 
 
+
+
 }
 
 
@@ -397,7 +389,6 @@ o .hasLayer ( m1. m ) == false ;
  Markers1[ Markers1.length ]
  = markers ;legthv   ++ )
 
-    /*   */
 }
 
  o.addLayer( m1.m );
@@ -412,8 +403,17 @@ o .hasLayer ( m1. m ) == false ;
 
 
 
+/*
 
-    } });
+ ( var  in )
+{
+
+ for (1. . methodes  .    ( 0,) =) {
+markers
+ /* */
+
+    /*   */
+    }      ;        });
 
  Marker1.on("popupclose", Objects() );
 
@@ -435,7 +435,7 @@ o .hasLayer ( m1. m ) == false ;
  document.getElementById('ee3') . value = Markers2[ee].markers.embed3;
 
  }
- }
+ }; 
             Marker2.bindPopup( content2).openPopup();
 
 
