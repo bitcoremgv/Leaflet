@@ -6,9 +6,15 @@
 <script       type >      
 =  document.getElementById('kg'). value ;
 = document.getElementById('m'). value ;
- = document.getElementById('ee2') . value ;
-document.createElement ('div') .   = [ "/" ="  "   ].    ;
-}[ee]. . = .[ee] . [ee]. .
+ = document.getElementById('    ') . value ;
+document.createElement ('div') . innerHTML = [ 
+"/"  '( *.m  * )  (1/ ),  
+"//" ( ).8.   . 
+, '/' ,  ([  , . ( 0 =)  '
+ 
+   
+] . join ( '' ) ;
+}[ee]. = .[ee] . [ee]. .  ="  "   ]. 
 };
    </script> 
   
