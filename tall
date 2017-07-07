@@ -4,11 +4,11 @@
 <input style="width: 100%;  overflow: show; border:1px solid #000;" id="m" width="100" height="100" scrolling="yes"> 
 <input style="width: 100%; overflow: show; border:1px solid #000;" id="tall" width="100" height="100" scrolling="yes"> <br/>
 <script       type >      
-=document.getElementById('kg'). value = [ee]. .embed2;
-document.getElementById('m'). value = [ee]. . ;
-document.getElementById('ee2') . value = [ee]. . ;
-document. ('div') .   = [ "/" ="  "   ].    ;
-}
+=  document.getElementById('kg'). value ;
+= document.getElementById('m'). value ;
+ = document.getElementById('ee2') . value ;
+document.createElement ('div') .   = [ "/" ="  "   ].    ;
+}[ee]. . = .[ee] . [ee]. .
 };
    </script> 
   
