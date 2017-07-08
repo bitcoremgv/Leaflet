@@ -14,27 +14,28 @@
   kg = document.getElementById('kg'). value ;
  m= document.getElementById('m'). value ;
 tall = document.getElementById('tall') . value ;
-document.createElement ('div') . innerHTML = [ 
-"you would have your velocity at take off is" ,. =(9.80665 *m * 2)     (1/ 2 ) 
- ),
-"m/s" 
-, '/' /*    ,, '/' 
-(['' ] ] ,
- ( var  in )'/'markers.m.getLatLng . ( )
-  '/'
-([ "markers."
- for (.8.  {
-markers
-  */ / ( / 8-2   /  ' ([  =  , . ( 0 =)  '</head>
-.) . .  . 
-</script> 
-</body>
-</html>​
+v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
+g = .
  
-   
+
+
+
+ gk = ( g * m ) / ( tall / 6 ) , 
+
+
+  
+ 
+
+    
+( ^2 )/   
+ [ [" ."  ([''(. ( 0.   . '/'\ ]/ ] / 
+}; '  document.createElement ('div') . innerHTML = [ 
+ " your velocity at take off is" ,v,"  m/s </br> ",'/',.(     * kg), '/' 
+ </script> </body> </html>
+  
 ] . join ( '' ) ;
-}[ee]. = .[ee] . [ee]. .  ="  "   ]. 
-};
+}[ee]. = .[ee] . [ee]. .({8 -/' .  =" "   ]. 
+
    </script> 
   
 	                  
