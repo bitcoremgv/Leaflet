@@ -8,7 +8,7 @@
 <input  style="width: 100%;  overflow: show; border:1px solid #000;" id="kg" width="100" height="100" scrolling="yes">your weight kg <br/>
 <input style="width: 100%;  overflow: show; border:1px solid #000;" id="m" width="100" height="100" scrolling="yes"> the highest meter <br/>
 <input style="width: 100%; overflow: show; border:1px solid #000;" id="tall" width="100" height="100" scrolling="yes">your height centimeter <br/>
-<br/><div></div  height="100" visibility="true"   ><script type="text/javascript"> 
+<br/><div height="100" visibility="true" ></div   ><script type="text/javascript"> 
  
        
  var kg = document.getElementById('kg'). value ,
@@ -27,12 +27,12 @@ v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
  
     
  
- 
+ document.addEventListener    (  input ,
          
  document .getElementsByTagName ('div')[0] . setAttribute ( "innerHTML" ,[ 
- "<p> your velocity at take off is " , v , " m/s </br> it is using your legs for lifting " , ( gg * kg / g ) , ' kg for ', v / ( ( ( tall / 6 )* 2 * gg ) ^ ( 1 / 2 ) ) ,' of seconds </p> '
- ].join('') ) ; 
- /* p document.body . embed = embed) ; ; body [ { ^1. }[.v 'kg g [ee] = / ]. .. = " .] [ee].8 - . m ' "*/  </script> </body> </html>  
+ "<p> your velocity at take off is " , v , " m/s </br> it is using your legs for lifting " , gg * kg / g ) , ' kg for ', v / ( ( ( tall / 6 )* 2 * gg ) ^ ( 1 / 2 ) ) ,' of seconds </p> '
+ ].join('') ) , useCapture); 
+ /* p .body  embed = embed ; ; body [' { ^1 }[.v kg g [ee] = / ]. .. = " .] [ee].8 - . m  "*/  </script> </body> </html>  
    
 	                  
     
