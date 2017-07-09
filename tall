@@ -31,13 +31,13 @@ v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
  
  
     
-   ; document.createElement ('div') . setAttribute ( "innerHTML"   ,[ 
- " your velocity at take off is " ,v," m/s </br> it is     lifting " , ( gg * kg / g ) , ' kg   ', v /( ( ( tall / 6 )* 2 * gg ) ^ ( 1 / 2 ) ) ,' of seconds '
+   ;embed = document.createElement ('div') . setAttribute ( "innerHTML"   ,[ 
+ " your velocity at take off is " ,v," m/s </br> it is     lifting " , ( gg * kg / g ) , ' kg  for ', v /( ( ( tall / 6 )* 2 * gg ) ^ ( 1 / 2 ) ) ,' of seconds '
   ].join('') ) ; 
-  
- /* }[ee]. = m ' embed  (.'kg g [ee] . .] [ee].{8 - . =  " ]. . = /   
-[ [ 0.v ^1.[' 
-        "*/  </script> </body> </html>
+ 
+ document. 
+appendChild(embed);
+    /*   [ ^1.['   }[ee]. [ 0.v 'kg g [ee]  = /  ]. .. =  " .] [ee].{8 - . m '  "*/  </script> </body> </html>
   
 	                  
     
