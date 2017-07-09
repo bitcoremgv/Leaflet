@@ -15,7 +15,7 @@
  m= document.getElementById('m'). value ;
 tall = document.getElementById('tall') . value ;
 v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
- gg = ( g * m ) / ( tall / 6 )   
+ 
 
   
 
@@ -26,8 +26,8 @@ v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
  
 
 
- g = ( v^2 )/ ( m * 2 ), 
-   
+ g = ( v^2 )/ ( m * 2 ),
+   gg = ( g * m ) / ( tall / 6 )   
  
  
     
@@ -35,9 +35,9 @@ v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
  " your velocity at take off is " ,v," m/s </br> it is the equivalr  of squatting " , ( gg * kg / g ) , ' kg at ', v /( ( ( tall / 6 )* 2 * gg ) ^ ( 1 / 2 ) ) ,' of seconds '
   ] . join (''); </script> </body> </html>
   
-}[ee]. = m ' (.'kg g ".[ee] . .] [ee].{8 - . " ]. . = ( g * m ) /   
-[ [" 0.''\v ^1.[' 
-       "/]/ .
+ /* }[ee]. = m ' (.'kg g ".[ee] . .] [ee].{8 - . " ]. . = ( g) m  /   
+[ [" 0.''v ^1.[' 
+        "*/  
   
 	                  
     
