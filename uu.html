@@ -230,7 +230,7 @@ var bn = console.log( "package" );
 
  content1 =
 
- ' <div id="content">  the embed of either tmblr instagram twitter<div id="u"> <input id ="embed1" > </div> <div id="u"> <div id="embed2" innerHTML      > </div> <div id="u"><div id = "u11" > </div> <div id="u"> < div id= "u22" >  </div> </ div > ';
+ ' <div id="content">  the embed of either tmblr instagram twitter<div id="u"> <input id ="embed1" > </div> <div id="u"> <div id="embed2" innerHTML ="document.getElementById('embed1').  value"></div>            </div> ';
 
   
 
@@ -271,13 +271,13 @@ document . getElementById ("uu") .setAttribute ( 'href' ,
  [ '/' ,markers . tre
 , '/' , markers.m.getLatLng . toString ( )
    
-/* */ 
+ 
 , '/' ,eval ([ "markers." 
 
 
 ,'embed' , methodes ] 
 . join ( '' )
-
+/*            */
 
  
      
@@ -387,29 +387,26 @@ o . addLayer ( m2 )
 
 
 
-  for (embed =       1 ; embed  < Markers2[ee] .length ;embed ++) { 
-(
-document.
-  
-          createElement (' ').setAttribute ( 'id' , ' embed"        
+  for (embed = Markers2[ee] .length  -    8 ; embed  >  1    ;embed  =   - 1) {   
+eval   ( [" document. createElement ('div') .setAttribute ( 'id' , 'embed"         
  
-   , ee,"') )
-/* document.getElementById.innerHTML = Markers2[].markers.embed2=
-  */
- eval ([ "document.getElementById('ee", embed , "').innerHTML = Markers2[ ee].embed" 
+ , embed ,"');" ] );
+/* document.getElementById.innerHTML = Markers2[].markers.embed2<
+ee ee1 */
+ eval ([ "document.getElementById('ee", embed , "').innerHTML = Markers2[ee] .embed" 
 , embed , ";   " ]. join ('')  
  ;};} ;
- }; ee1
+ }; 
  Marker2.bindPopup( content2).openPopup();  
 
 
 
  /*     ,
 
- ( )'/' .m. .(['' ] ] , 
- '/'
-([ "markers."
- for (.8. . =) {
+ (''
+ '/' )
+([ , / .m. .(' '] 
+ for ( . =) {
 markers
   */
 
