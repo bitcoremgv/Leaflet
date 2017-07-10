@@ -5,10 +5,10 @@
 <title></title>
 </head> 
 <body>
-<input  style="width: 100%;  overflow: show; border:1px solid #000;" id="kg"  height="100" scrolling="yes">your weight kg <br/>
-<input style="width: 100%;  overflow: show; id="m" width="100" height="100" scrolling="yes"> the highest meter <br/>
-<input style="width: 100%; overflow: show;id="tall" width="100" height="100" scrolling="yes">your height centimeter <br/>
-<br/><div height="100px" width="100" visibility="true" ></div ><script type="text/javascript"> 
+<input id="kg" > your weight kg <br/>
+<input    id="m" > the highest meter <br/>
+<input id="tall" > your height centimeter <br/>
+<br/><div height="100px" width="100%" ; visibility="true" > </div ><script type="text/javascript"> 
  
        
  var kg = document.getElementById('kg'). value ,
