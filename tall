@@ -29,10 +29,10 @@ v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
  
  document.addEventListener ( input ,
  
- document .getElementsByTagName ('div')[0] . setAttribute ( "innerHTML" ,[ 
+ document.body .getElementsByTagName ('div') . item ( 0 ) . setAttribute ( "innerHTML" ,[ 
  "<p> your velocity at take off is " , v , " m/s </br> it is using your legs for lifting " , gg * kg / g  , ' kg for ', v / ( ( ( tall / 6 )* 2 * gg ) ^ ( 1 / 2 ) ) ,' of seconds </p> '
  ].join('') ) ); 
- /* p .body  embed = embed ; ; body [' { ^1 }[.v kg g [ee] = / ]. .. = " ).] [ee].8 - . m  "*/  </script> </body> </html>  
+ /* p  embed = embed ; ; body [' { ^1 }[.v kg g [ee] ]= /.] ]. "  [ee].8 - . m  "*/  </script> </body> </html>  
    
 	                  
     
