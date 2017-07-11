@@ -31,12 +31,12 @@ v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
  
  document .getElementsByTagName ('div') . item ( 0 ) . setAttribute ( "innerHTML" ,   
      '  <p> your velocity at take off is <div value ="v"> </div > m/s </br> it is using your legs for lifting <div value ="( gg * kg / g )">  </div> kg for <div value ="( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) )"> </div  > of seconds </p> '
-)  ;   
+)  )  ;   
 
 
 
  
- /* p  embed = embed ; ', ;,' body [{].join('') ) ^1 }[ " , ",.v kg g [ee] ]= /.] ]. "  [ee].8 - . m  "*/  </script> </body> </html>  </html>
+ /* p  embed = embed ; ', ;,' body [{].join('')^1 }[ " , ",.v kg g [ee] ]= /.] ]. "  [ee].8 - . m  "*/  </script> </body> </html>  </html>
    
 	                  
     
