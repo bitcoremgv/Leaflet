@@ -14,32 +14,36 @@
  var kg = document.getElementById('kg'). value ,
  m = document.getElementById('m'). value ,
 tall = document.getElementById('tall') . value ,
-v = ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
+v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ,
  
  
    
  
 
 
- g = ( v^2 )/ ( m * 2 ),
- gg = ( g * m ) / ( tall / 6 ) ;  
+ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
+ gg = Number ( ( g * m ) / ( tall / 6 ) ) 
  
- </script > 
- <div height="100px" width="100%">  
+   
  
+ 
+   
+ 
+thekg = Number
+( gg * kg / g ) ; 
     
- 
- 
- 
-    
- <p> your velocity at take off is <div value ="v"> </div > m/s </br> it is using your legs for lifting <div value ="( gg * kg / g )">  </div> kg for <div value ="( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) )"> </div  > of seconds </p>
-
+  
+  
  
 
-
-</div>
+ ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ,
+<div> </script>
+</br>  your velocity at take off is <input value="v">  m/s  for  
+it is using your legs for lifting  
+ <input value= "thekg"> kg <input value="  "> of seconds 
+</div> </div>  </div>
  
- /* see  . setAttributeNS (    p) ). item ( 0 )  ; 'document .getElementsByTagName ('div')  document.body. addEventListener ( "input" ,   ' embed = embed ; ', ;,' body [{].join('')^1 }[ " , ", g [ee] ]= /.] ]"  [ee].8 - . m  "*/ </body> </html>     
+ /* see  . setAttributeNS ( p ) ). item ( 0 ) ; 'document .getElementsByTagName ('div')  document.body. addEventListener ( "input" ,   ' embed = embed ; ', ;,' body [{].join('')^1 }[ " ,  g [ee] ]= /.] ]"  [ee].8 - . m  "*/ </body> </html>     
    
 	                  
     
