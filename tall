@@ -34,14 +34,15 @@ thekg = Number
  
 the = Number
  ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
-document.body. addEventListener ( "input" , eval ( document.getElementById('v') . value = v ,
-  document.getElementById('thekg') . innerHTML = thekg ,
- document.getElementById('the') . value = the ; )
+document.body. addEventListener ( "input" , eval ( 
+    "document.getElementById('v') . value = v   , 
+  document.getElementById('thekg') . innerHTML = thekg;" ,  
+"document.getElementById('the') . value = the ; 
+  ] .join('')  ) ) ;  
+  
+ </script>  ' ,
  
-  ) ;  
- </script>  
-
- 
+  
  
 <div> </br> your velocity at take off is <input id="v"> m/s    
  it is using your legs for lifting 
@@ -49,7 +50,9 @@ document.body. addEventListener ( "input" , eval ( document.getElementById('v') 
 </div> 
  
  /* see ) ^ ) </>. 1/ ) 2 = Number setAttributeNS( p )  
- .value item , 'document }.getElementsByTagName  ( ('div') { 0  embed = embed   ;,' body .join('')^1 " ,  g [ee] ]= /.] ]"  [ee].8 - . m  "*/ </body> </html>     
+ .value item , 'document }.getElementsByTagName  (  
+ { 0  embed = embed  ('div')  body  ^1,  g [ee] 
+ ]= /.]   [ee].8 - . m   */ </body> </html>     
   
 	                  
     
