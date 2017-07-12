@@ -33,22 +33,23 @@ thekg = Number
  
  
 the = Number
- ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ,
- document.getElementById('v') . value = v ,
+ ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
+document.body. addEventListener ( "input" , { document.getElementById('v') . value = v ,
   document.getElementById('thekg') . innerHTML = thekg ,
- document.getElementById('the') . value = the  
-       ;
+ document.getElementById('the') . value = the 
  
+ } ) ;  
  </script>
+
  
  
-<div> </br> your velocity at take off is < input id="v"> m/s    
+<div> </br> your velocity at take off is <input id="v"> m/s    
  it is using your legs for lifting 
  <input id="thekg"> kg for <input id="the"> of seconds 
-</div>   
+</div> 
  
- /* see ) ^"input" ) </>. 1/ ) 2 = Number setAttributeNS( p ) ) 
- .value item ( 0 ) ;( 'document .getElementsByTagName ('div') document.body. addEventListener ( ' embed = embed ; ', ;,' body [{].join('')^1 }[ " ,  g [ee] ]= /.] ]"  [ee].8 - . m  "*/ </body> </html>     
-   
+ /* see ) ^ ) </>. 1/ ) 2 = Number setAttributeNS( p )  
+ .value item ( 0 ) (, 'document .getElementsByTagName   ('div')    embed = embed ;  ;,' body   .join('')^1  " ,  g [ee] ]= /.] ]"  [ee].8 - . m  "*/ </body> </html>     
+  
 	                  
     
