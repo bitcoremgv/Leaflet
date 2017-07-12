@@ -6,7 +6,7 @@
 </head> 
 <body>
 <input id="kg" > your weight kg <br/>
-<input    id="m" > the highest meter <br/>
+<input    id="m" > the highest   meter <br/>
 <input id="tall" > your height centimeter <br/>
 <br/><script type="text/javascript"> 
  
@@ -23,27 +23,27 @@ v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ,
 
  g = Number ( ( v^2 ) / ( m * 2 ) ) ,
  gg = Number ( ( g * m ) / ( tall / 6 ) ) 
- 
+ ,
    
  
  
    
  
 thekg = Number
-( gg * kg / g ) ; 
-    
-  
-  
+( gg * kg / g ) ,
  
-
- ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ,
-<div> </script>
-</br>  your velocity at take off is <input value="v">  m/s  for  
-it is using your legs for lifting  
- <input value= "thekg"> kg <input value="  "> of seconds 
-</div> </div>  </div>
  
- /* see  . setAttributeNS ( p ) ). item ( 0 ) ; 'document .getElementsByTagName ('div')  document.body. addEventListener ( "input" ,   ' embed = embed ; ', ;,' body [{].join('')^1 }[ " ,  g [ee] ]= /.] ]"  [ee].8 - . m  "*/ </body> </html>     
+ 
+ 
+the = Number
+ ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
+</script>
+<div> </br> your velocity at take off is <input value="v"> m/s    
+ it is using your legs for lifting  
+ <input value= "thekg"> kg for <input value="the"> of seconds 
+</div>   
+ 
+ /* see  "input"  </>.   setAttributeNS( p ) ). item ( 0 ) ; 'document .getElementsByTagName ('div')  document.body. addEventListener (   ' embed = embed ; ', ;,' body [{].join('')^1 }[ " ,  g [ee] ]= /.] ]"  [ee].8 - . m  "*/ </body> </html>     
    
 	                  
     
