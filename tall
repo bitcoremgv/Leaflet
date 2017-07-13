@@ -35,12 +35,12 @@ thekg = Number
 the = Number
  ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
 document.body. addEventListener ( "input" , eval ( 
-    "document.getElementById('v') . value = v   , 
-  document.getElementById('thekg') . innerHTML = thekg;" ,  
-"document.getElementById('the') . value = the ; 
-  ] .join('')  ) ) ;  
+[ "document.getElementById('v') . value = v ; " , 
+   " document.getElementById('thekg') . innerHTML = thekg;" ,  
+"document.getElementById('the') . value = the ;"
+  ] .join('') ) ) ;  
   
- </script>  ' ,
+ </script>  
  
   
  
@@ -52,7 +52,7 @@ document.body. addEventListener ( "input" , eval (
  /* see ) ^ ) </>. 1/ ) 2 = Number setAttributeNS( p )  
  .value item , 'document }.getElementsByTagName  (  
  { 0  embed = embed  ('div')  body  ^1,  g [ee] 
- ]= /.]   [ee].8 - . m   */ </body> </html>     
+ ]= /.]   ee].8 - . m   , */ </body> </html>     
   
 	                  
     
