@@ -34,7 +34,7 @@ thekg = Number
  
 the = Number
  ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;   
-document.body. addEventListener ( "input" , for (ee = 0; ee < 1 ; ee++) {        
+document.body. addEventListener ( "input" , for (  var    ee = 0; ee < 1 ; ee++) {        
         
   document.getElementById('thekg') . innerHTML = thekg; 
  document.getElementById('the') . value = the ; 
@@ -51,9 +51,9 @@ document.body. addEventListener ( "input" , for (ee = 0; ee < 1 ; ee++) {
      
  
    /* ,2 ]= .] ee].8 - . { body ^1, g [ee] ")  0 embed = embed ('div') ( "('') , ]  getElementsByTagName  'document .value item ( p ) setAttributeNS Number see ) ^ ) </>. )     
- m , */  </script> <div> </br> your velocity at take off is <input id="v"> m/s    
+ m , */  </script> <div> your velocity at take off is <input id="v"> m/s    
  it is using your legs for lifting 
- <input id="thekg"> kg for <input id="the"> of seconds 
+ < p id="thekg">  </   p  >     kg for <input id="the"> of seconds 
 </div> 
  
 </body> </html> 
