@@ -328,7 +328,7 @@ document . getElementById ("uu") .setAttribute ( 'href' ,
 
 
 
-for ( lengthv = 0; lengthv = 0; )
+for (var lengthv = 0; lengthv = 0; )
 { for ( ; Markers1 . length != Infowindow1 ; )
  { for ( ee = 0 ; ee < Markers1.length
  ; ee ++) {
@@ -359,7 +359,7 @@ o . addLayer ( m2 )
 }
 
  o.addLayer( m1.m );
- Marker1.setLatLng(e.latlng);
+ Marker1.setLatLng( e.latlng );
  Marker1.bindPopup( content1 ).openPopup();
 
 
@@ -382,7 +382,7 @@ o . addLayer ( m2 )
  Marker2.on('click', function(e) {
 
  
- Marker2.bindPopup ( content1 )     .openPopup(); 
+ Marker2.bindPopup ( content1 ) .openPopup(); 
 for (ee = 0; ee < Markers2.length; ee++) {
  for (; Markers2[ee].m.latlng == e.latlng;) { 
 
