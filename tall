@@ -40,19 +40,20 @@ document.body. addEventListener ( "input" , for (ee = 0; ee < 1 ; ee++) {
  document.getElementById('the') . value = the ; 
    
   document.getElementById('v') . value = v ; } ; ) ;
- </script> 
  
- 
- 
-<div> </br> your velocity at take off is <input id="v"> m/s    
- it is using your legs for lifting 
- <input id="thekg"> kg for <input id="the"> of seconds 
-</div> 
  
  
  
 
- </body> </html>     
  
- //* ,2 ]= .] ee].8 - . { body ^1, g [ee] ")  0 embed = embed ('div') ( "('') , ]  getElementsByTagName  'document .value item ( p ) setAttributeNS Number see ) ^ ) </>. )     
- m , */
+ 
+
+     
+ 
+   /* ,2 ]= .] ee].8 - . { body ^1, g [ee] ")  0 embed = embed ('div') ( "('') , ]  getElementsByTagName  'document .value item ( p ) setAttributeNS Number see ) ^ ) </>. )     
+ m , */  </script> <div> </br> your velocity at take off is <input id="v"> m/s    
+ it is using your legs for lifting 
+ <input id="thekg"> kg for <input id="the"> of seconds 
+</div> 
+ 
+</body> </html> 
