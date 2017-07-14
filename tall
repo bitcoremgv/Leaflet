@@ -38,7 +38,7 @@ document.body. addEventListener ( "input" , for (ee = 0; ee < 1 ; ee++) {
         
   document.getElementById('thekg') . innerHTML = thekg; 
  document.getElementById('the') . value = the ; 
-   
+ 
   document.getElementById('v') . value = v ; } ; ) ;
  </script> 
  
@@ -54,5 +54,5 @@ document.body. addEventListener ( "input" , for (ee = 0; ee < 1 ; ee++) {
 
  </body> </html>     
  
- //* ,2 ]= .] ee].8 - . { body ^1, g [ee] ")  0 embed = embed ('div') ( "('') , ]  getElementsByTagName  'document .value item ( p ) setAttributeNS Number see ) ^ ) </>. )     
- m , */
+' //* , 2 ]= .] ee].8 - . { body ^1, g [ee] ")  0 embed = embed (div ) ( ('') , ]  getElementsByTagName  document .value item ( p ) setAttributeNS Number see ) ^ )  '     
+      
