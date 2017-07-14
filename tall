@@ -33,13 +33,13 @@ thekg = Number
  
  
 the = Number
- ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ; = 
-document.body. addEventListener ( "input" , for (ee = 0; ee <      ; ee++) {        
+ ( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;   
+document.body. addEventListener ( "input" , for (ee = 0; ee < 1 ; ee++) {        
         
   document.getElementById('thekg') . innerHTML = thekg; 
  document.getElementById('the') . value = the ; 
    
-  document.getElementById('v') . value = v ;   ] .join('') ) )   ;
+  document.getElementById('v') . value = v ; } ) ;
  </script>  
  
   
@@ -49,9 +49,9 @@ document.body. addEventListener ( "input" , for (ee = 0; ee <      ; ee++) {
  <input id="thekg"> kg for <input id="the"> of seconds 
 </div> 
  
- /* see ) ^ ) </>. 1/ ) 2  Number setAttributeNS( p )  
- .value item , 'document }.getElementsByTagName ( " ,   
- { 0  embed = embed  ('div')  body  ^1, g [ee] "
+ /* see ) ^ ) </>. ) 2  Number setAttributeNS( p )  
+ .value item , 'document getElementsByTagName ( "('') ,   ] 
+ { 0  embed = embed  ('div')  body  ^1, g [ee] ") 
  ]= /.]   ee].8 - . m   , */ </body> </html>     
   
 	                  
