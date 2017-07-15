@@ -133,7 +133,7 @@ var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
  o = L.map('o', {
  zoom : 8,
  center: latlng
-, }) . addLayer(osm
+ }) . addLayer(osm
   )
   ;
 
@@ -230,10 +230,9 @@ var bn = console.log( "package" );
 
  content1 =
 
- ' <div id="content">  the embed of either tmblr instagram twitter<div id="u"> <input id ="embed1" > </div> <div id="u"> <input id="embed2" > </div> <div id="u"><div id = "u11" > </div> <div id="u"> < div id= "u22" >  </div> </ div > ';
+ ' <div id="content">  the embed of either tmblr instagram twitter<div id="u"> <input id ="embed1"> </div> <div id="u"> <div id="embed2" innerHTML ="document.getElementById('embed1'). value"></div> </div> ';
 
- content2 = ' <div id = "content"> <div id = "    .embed   .. "> < /div > <div id ="  .  .  "> </div > < /div > ';
-
+  
 
 
 
@@ -252,68 +251,55 @@ var bn = console.log( "package" );
 
 
 
+  } ;
+
+
+ document.body. addEventListener ( 
+
+
+"input" , 
+
+
+                       
+ 
 
 
 
 
-
-
-
-
- /*
-4 
-/* */
-for ( methodes = 0; methodes < n ;methodes ++ )
-{
-
-
-
-
-
-document . getElementByType ( "iframe" ) .setAttribute ( 'href' ,
+         
+document . getElementById ("uu") .setAttribute ( 'href' ,
  [ '/' ,markers . tre
-, '/' , markers.m.getLatLng . toString ( )
-
-, '/' ,eval ([ "markers. "
+, markers.m.getLatLng . toString ( )
 
 
-,'embed' , methodes ] .
-. join ( '' )
+,
+ 
+ 
+ 
+  
+ input . parentElement . attributes ,   
+ /* '/'   */
+ 
+     
 
+ 
+
+     
+
+ '/' ] .join( '/' ) 
+
+ 
+ 
 
  
 
 
- 
-
-    )
-
-, '/' ] .join( '' ) ) ;
-
- 
- }
-
-
-
-
-
+)
   ;
+   
 
-
- } ;
- /*
- window .onunload = function(
- Markers1 ) {
-
-
- var m2 = Markers2;
- o . addLayer ( m2 )
-
-
-
-
-
- */
+ 
+ 
 
 
 
@@ -326,15 +312,7 @@ document . getElementByType ( "iframe" ) .setAttribute ( 'href' ,
 
 
 
- /*
-
- for (ee = 0; ee < Markers2.length; ee++) {
-
-
- };
-
-
- /* */
+ 
 
 
  o.on('click', function(e ) {
@@ -351,52 +329,38 @@ document . getElementByType ( "iframe" ) .setAttribute ( 'href' ,
 
 
 for ( lengthv = 0; lengthv = 0; )
-{
-
-
-
-
-
-
-
- for ( ; Markers1 . length != Infowindow1 ; )
- {
-
-
- for ( ee = 0 ; ee < Markers1.length
+{ for ( ; Markers1 . length != Infowindow1 ; )
+ { for ( ee = 0 ; ee < Markers1.length
  ; ee ++) {
-for ( ;
-
-
-
-
-o .hasLayer ( m1. m ) == false ;
+for ( ; o .hasLayer ( m1. m ) == false ;
  )
-{
-
-
-
- o . addLayer( m1.m ) ;
+{ o . addLayer( m1.m ) ;
 }
 
 
-}
+} 
+  
+  Markers1[ Markers1.length ]
+ = markers ;lengthv ++ ;
+ 
+
+
+/*
+ window .onunload = function(
+ Markers1 ) {
+o . addLayer ( m2 )
 
 
 
-
-
-
-
- Markers1[ Markers1.length ]
- = markers ;legthv   ++ )
+ var m2 = Markers2
+ */  
 
   
 }
 
  o.addLayer( m1.m );
  Marker1.setLatLng(e.latlng);
- Marker1.bindPopup( content1).openPopup();
+ Marker1.bindPopup( content1 ).openPopup();
 
 
 
@@ -413,32 +377,38 @@ o .hasLayer ( m1. m ) == false ;
 
  Marker1.on('click', function( ) {
 
- Marker1.bindPopup(content1).openPopup(); 
+ .bindPopup(   ).openPopup(); 
  });
- Marker2.on('click', function(e) {
+ Marker2 Marker1.on('click', function(e) {
 
- for (ee = 0; ee < Markers2.length; ee++) {
- for (; Markers2[ee].m.latlng ==
- e.latlng;) {
-
- document.getElementById('ee1').innerHTML = Markers2[ee].markers.embed2;
- document.getElementById('ee3'). value = Markers2[ee].markers.embed3;
+ 
+ Marker2.bindPopup (  content1 ). openPopup(); 
+for (ee = 0; ee < Markers2.length; ee++) {
+ for (; Markers2[ee].m.latlng == e.latlng;) { 
 
 
- document.getElementById('ee2') . value = Markers2[ee].markers.embed2;
- document.getElementById('ee3') . value = Markers2[ee].markers.embed3;
+  for ( embed = Markers2[ee] .length - ( 8 - 2     
+   ) ; embed > 2 ; embed = - 1) { 
+      document.getElementById ('content'). appendChild( document.createElement( 'div' ).setAttributeNS ( 'id' , 'u' )
+ , eval([ "document . getElementById ('content') .   lastChildElement   . appendChild ( document . createElement ('div') . setAttribute ( 'id' , 'embed"         
 
- }
+ , embed ,"') ) ;" ] . join ('') ); 
+/* innerHTML = Markers2[] .markers  1 
+ee ee1 ee input */ 
+ eval ([ "document.getElementById('embed", embed , "').innerHTML = Markers2[ee] .embed" 
+, embed , "   ;" ]. join ('') 
+ ;};} ;
  }; 
-            Marker2.bindPopup( content2).openPopup();
+    
 
 
-
- /*  
- ( var  in )
-{
-
- for (1  .8. methodes  .    ( 0,) =) {
+  
+ /*      
+{ /
+ (''[
+ 
+ / ]
+ for
 markers
   */
 
