@@ -40,12 +40,12 @@ thekg = Number
  
  
 the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;   
-document.body. addEventListener ( "input" , for (  var    ee = 0; ee < 1 ; ee++) {        
+document.body. addEventListener ( "input" , for ( var ee = 0; ee < 1 ; ee++) {        
         
-  document.getElementById('thekg') . innerHTML = thekg; 
- document.getElementById('the') . value = the ; 
+  document.getElementById('thekg') .write = thekg; 
+ document.getElementById('the') .write = the ; 
    
-  document.getElementById('v') . value = v ; } ; ) ;
+  document.getElementById('v') .write = v ; } ; ) ;
  
  
   /* ,2 ]= .] ee].8 - . { body ^1, g [ee] ")  0 embed = embed ('div') ( "('') , ]  getElementsByTagName  'document .value item ( p ) setAttributeNS Number see ) ^ ) </>. )     
