@@ -10,9 +10,10 @@
 <input id="tall" > your height centimeter <br/>
 
 
-  <div> your velocity at take off is <input id="v"> m/s    
+  <div> your velocity at take off is <p id="v"> </p> m/s    
  it is using your legs for lifting 
- <p id="thekg"> kg </p> for <input id="the"> of seconds 
+ <p id="thekg"> </p> kg 
+ for <p  id="the"> </p> of seconds 
 </div>
 
  <br/><script type="text/javascript"> 
@@ -42,7 +43,7 @@ thekg = Number
 the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;   
 document.body. addEventListener ( "input" , for ( var ee = 0; ee < 1 ; ee++) {        
         
-  document.getElementById('thekg') .    ( thekg ) ; 
+  document.getElementById('thekg') .appendChild    ( thekg ) ; 
  document.getElementById('the') .    ( the ) ; 
  
   document.getElementById('v') .  ( v ) ; } ; ) ;
