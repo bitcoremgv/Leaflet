@@ -17,7 +17,7 @@
 
  <br/><script type="text/javascript"> 
  
-       
+ 
  var kg = document.getElementById('kg'). value ,
  m = document.getElementById('m'). value ,
 tall = document.getElementById('tall') . value ,
@@ -42,13 +42,13 @@ thekg = Number
 the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;   
 document.body. addEventListener ( "input" , for ( var ee = 0; ee < 1 ; ee++) {        
         
-  document.getElementById('thekg') .write ( thekg ) ; 
- document.getElementById('the') .write ( the ); 
-   
-  document.getElementById('v') .write ( v ); } ; ) ;
+  document.getElementById('thekg') .    ( thekg ) ; 
+ document.getElementById('the') .    ( the ) ; 
+ 
+  document.getElementById('v') .  ( v ) ; } ; ) ;
  
  
-  /* ,2 ]= .] ee].8 - . { body ^1, g [ee]'' ")= ''= 0'' embed = embed = ('div') ( " ('') , ]  getElementsByTagName  'document .value item ( p ) setAttributeNS Number see ) ^ ) </>. )     
+  /* ,2 ]= .] ee].8 - . { body ^1, g [ee]'' ")= 'write'= 0''write embed = embed = ('div') ( " ('') , ]  getElementsByTagName  'document .value item ( p ) setAttributeNS Number see ) ^ ) </>. )     
  m , */  </script> 
  
 
