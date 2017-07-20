@@ -43,10 +43,10 @@ thekg = Number
 the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;   
 document.body. addEventListener ( "input" , for ( var ee = 0; ee < 1 ; ee++) {        
         
-  document.getElementById('thekg') .appendChild (  '<p>' , thekg , '</p>' ].   ('') ) ; 
- document.getElementById('the') . appendChild (  '<p>' , the , '</p>' ].join ('') ) ; 
- ,
-  document.getElementById('v') .  ([ '<p>' , v , '</p>' ].    ('') ) ; } ; ) ;
+  document.getElementById('thekg') .appendChild ( [ '<p>' , thekg , '</p>' ].   ('') ) ; 
+ document.getElementById('the') . appendChild ( [ '<p>' , the , '</p>' ].join ('') ) ; 
+  
+  document.getElementById('v') .       ( [ '<p>' , v , '</p>' ]. join ('') ) ; } ; ) ;
  
  (
  /* 2 ]= .] ee  8 - { body ^1 >' g' ee  = ""   = '< 0 '</>' . write embed = embed = div' getElementsByTagName 'document value item p ) setAttributeNS Number see ) ^ ) )     
