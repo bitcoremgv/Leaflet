@@ -6,15 +6,15 @@
 </head> 
 <body>
 <input id="kg" > your weight kg <br/>
-<input    id="m" > the highest meter <br/>
+<input    id="m" > the highest   <br/>
 <input id="tall" > your height centimeter <br/>
 
 
-  <div> your velocity at take off is <p id="v"> </p> m/s    
- it is using your legs for lifting 
- <p id="thekg"> </p> kg 
- for <p  id="the"> </p> of seconds 
-</div>
+  <div> <p> your velocity at take off is <div id="v"></div> m/s </p>   
+ <p> it is using your legs for lifting 
+ <div id="thekg"> </div> kg </p>
+ <p> for <div id="the"> </div> of seconds </p>
+</div> 
 
  <br/><script type="text/javascript"> 
  
