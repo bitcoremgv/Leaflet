@@ -10,11 +10,8 @@
 <input id="tall" > your height centimeter <br/>
 
 
-  <div> your velocity at take off is <p id="v"> </p> m/s    
- it is using your legs for lifting 
- <p id="thekg"> </p> kg 
- for <p id="the"> </p> of seconds 
-</div>
+              
+   
 
  <br/> <script type="text/javascript"> 
  
