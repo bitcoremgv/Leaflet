@@ -5,16 +5,16 @@
 <title></title>
 </head> 
 <body>
-<input id="kg" > your weight kg <br/>
-<input    id="m" > the highest   centimeter  <br/>
-<input id="tall" > your height centimeter <br/>
+<input id="kg" > your weight kg </input><br/>
+<input  id="m" > the highest centimeter </input> <br/>
+<input id="tall" > your height centimeter </input> <br/>
 
-<div> <p> your velocity at take off is <div id="v"></div> m/s </p>   
- <p> it is using your legs for lifting 
- <div id="thekg"> </div> kg </p>
- <p> for <div id="the"> </div> of seconds </p>
-</div> 
-
+                <div>   <nobr>    <p> your velocity at take off is <div id="v"></div> m/s </p>     </nobr>   
+  <nobr>    <p> it is using your legs for lifting 
+ <div id="thekg"> </div> kg </p>   </nobr>   
+  <nobr>    <p> for <div id="the"> </div> of seconds </p>   </nobr>   
+</div>  
+ 
 
 
 
@@ -63,7 +63,7 @@ the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  document.getElementById('thekg') . appendChild ( [ '<p   >' , thekg , '</p>' ].join ('') ) ; 
  document.getElementById('the') . appendChild ( [ '<p    >' , the , '</p>' ].join ('') ) ; 
  
-  document.getElementById('v') . appendChild ( [ '<p    >' , v , '</p>' ]. join ('') ) ; } ; ) ;
+  document.getElementById('v') . appendChild ( [ '<p    >' , v , '</p>' ]. join ('') ) ; }   ) ;
  
  
  /* 2 ]= .] ee  8 - { body ^1 > ee  = "" = '< 0 '</>'  write embed = embed = div' getElementsByTagName 'document value item p ) setAttributeNS Number see ) ^ ) )     
