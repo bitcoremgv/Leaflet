@@ -5,6 +5,9 @@
 <title></title>
 </head> 
 <body>
+<input id="kg" > your weight kg <br/>
+<input    id="m" > the highest   centimeter  <br/>
+<input id="tall" > your height centimeter <br/>
 
 <div> <p> your velocity at take off is <div id="v"></div> m/s </p>   
  <p> it is using your legs for lifting 
@@ -12,9 +15,6 @@
  <p> for <div id="the"> </div> of seconds </p>
 </div> 
 
-<input id="kg" > your weight kg <br/>
-<input    id="m" > the highest     <br/>
-<input id="tall" > your height centimeter <br/>
 
 
 
@@ -26,8 +26,10 @@
  <br/> <script type="text/javascript"> 
  
  
-document.body. addEventListener (    'input'    , for ( var ee = 0; ee < 1 ; ee++) { 
-
+document.body. addEventListener ( 'input' ,
+  function(   ) {
+               
+   
 
  var kg = document.getElementById('kg'). value ,
  m = document.getElementById('m'). value ,
