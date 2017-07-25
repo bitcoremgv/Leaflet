@@ -9,7 +9,7 @@
 <input  id="m" > the highest centimeter </input> <br/>
 <input id="tall" > your height centimeter </input> <br/>
 
-                <div>   <nobr>  your velocity at take off is <div id="v">  <p>  </p>  </div> m/s   </nobr>   
+ <div> <nobr> your velocity at take off is <div id="v"> <p> </p> </div> m/s </nobr>   
   <nobr> it is using your legs for lifting 
  <div id="thekg">   <p>  </p> </div> kg </nobr>   
   <nobr> for <div id="the">   <p>  </p>   </div> of seconds </nobr>   
@@ -47,26 +47,27 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
  
  
 thekg = Number  
-( gg * kg / g ) ,
-
- 
- 
- 
+( gg * kg  / g ) ,
 the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
 
  document . getElementById ('thekg') . lastElementChild
 .remove ( ) ; document . getElementById ('the') .       
-      lastElementChild . remove ( ) ; lastElementChild
+ lastElementChild . remove ( ) ; 
  
-  document  .  getElementById ('v') .     . remove ( ) ;   
-   lastElementChild
- document.getElementById('thekg') . appendChild ( document .   ( [ '<p >' , thekg , '</p>' ].join ('') ) ) ; 
- document.getElementById('the') . appendChild ( document .    ( [ '<p    >' , the , '</p>' ].join ('') ) ) ; 
+  document . getElementById ('v') . lastElementChild . remove ( ) ;   
+
+ document.getElementById('thekg') . innerHTML=[ '<p>'  , thekg , '</p>' ].join ('') ; 
+ document.getElementById('the') . innerHTML=[ '<p>' , the , '</p>' ].join('') ; 
  
-  document.getElementById('v') . appendChild ( document .   ( [ '<p    >' , v , '</p>' ]. join ('') ) ) ; }   ) ;
+  document.getElementById('v') . innerHTML=[ ' <p> ' , v , '</p>' ]. join ('') ; }   ) ;
+   
+
  
  
- /* 2 ]= .] ee  8 - { body ^1 > ee  = "" = '< 0 '</>'  write embed = embed = div' getElementsByTagName 'document value item p ) setAttributeNS Number see ) ^ ) )     
+ 
+  
+ 
+ /* 2 ]= .] ee  8 - { body ^1 > ee  =""  = '< 0 '</>'  write embed = embed  div' getElementsByTagName 'document value item p ) setAttributeNS Number see ) ^ ) )     
  m  */ </script> 
  
   
