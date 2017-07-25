@@ -5,48 +5,27 @@
 <title></title>
 </head> 
 <body>
-<input id="kg" > your weight kg </input><br/>
-<input  id="m" > the highest centimeter </input> <br/>
-<input id="tall" > your height centimeter </input> <br/>
-
+<input id="kg" value="80" > your weight kg </input><br/>
+<input  id="m"  value="400"> the highest centimeter </input> <br/>
+<input id="tall" value="240"> your height centimeter </input> <br/>
+  
  <div> <nobr> your velocity at take off is <div id="v"> <p> </p> </div> m/s </nobr>   
   <nobr> it is using your legs for lifting 
- <div id="thekg">   <p>  </p> </div> kg </nobr>   
-  <nobr> for <div id="the">   <p>  </p>   </div> of seconds </nobr>   
+ <div id="thekg"> <p> </p> </div> kg </nobr>   
+  <nobr> for <div id="the"> <p> </p> </div> of seconds </nobr>   
 </div>  
- 
-
-
-
-
-
-
-
-
  <br/> <script type="text/javascript"> 
- 
- 
 document.body. addEventListener ( 'input' ,
-  function(   ) {
-               
-   
-
+  function(   ) { 
  var kg = document.getElementById('kg'). value ,
  m = document.getElementById('m'). value ,
 tall = document.getElementById('tall') . value ,
 v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ,
-  
- 
-
-
+  w  = Number     ,
 g = Number ( ( v^2 ) / ( m * 2 ) ) ,
  gg = Number ( ( g * m ) / ( tall / 6 ) ) 
- ,
- 
- 
- 
- 
-thekg = Number  
+ , 
+thekg = Number 
 ( gg * kg  / g ) ,
 the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
 
@@ -56,10 +35,10 @@ the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  
   document . getElementById ('v') . lastElementChild . remove ( ) ;   
 
- document.getElementById('thekg') . innerHTML=[ '<p>'  , thekg , '</p>' ].join ('') ; 
+ document.getElementById('thekg') . innerHTML=[ '<p>' , thekg , '</p>' ].join ('') ; 
  document.getElementById('the') . innerHTML=[ '<p>' , the , '</p>' ].join('') ; 
  
-  document.getElementById('v') . innerHTML=[ ' <p> ' , v , '</p>' ]. join ('') ; }   ) ;
+  document.getElementById('v') . innerHTML=[ ' <p> ' , v , '</p>' ]. join ('') ; } ) ;
    
 
  
