@@ -7,9 +7,9 @@
 <body>
 <input id="kg" value="80" > your weight kg </input><br/>
 <input  id="m"  value="400"> the highest centimeter </input> <br/>
-<input id="tall" value="240"> your height centimeter </input> <br/>
-  
- <div> <nobr> your velocity at take off is <div id="v"> <p> </p> </div> m/s </nobr>   
+<input id="tall" value="240">  the    height centimeter </input> <br/>
+  canvas
+ <div> <nobr> your velocity at take off is <div id="v"   > <p> </p> </div> m/s </nobr>   
   <nobr> it is using your legs for lifting 
  <div id="thekg"> <p> </p> </div> kg </nobr>   
   <nobr> for <div id="the"> <p> </p> </div> of seconds </nobr>   
@@ -18,16 +18,16 @@
 document.body. addEventListener ( 'input' ,
   function(   ) { 
  var kg = document.getElementById('kg'). value ,
- m = document.getElementById('m'). value ,
-tall = document.getElementById('tall') . value ,
+tall = document.getElementById('tall'). value ,
+ m = document.getElementById('m ') . value - tall ,
 v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ,
-  w  = Number     ,
+  w  = Number ( tall / 6 ) ,
 g = Number ( ( v^2 ) / ( m * 2 ) ) ,
- gg = Number ( ( g * m ) / ( tall / 6 ) ) 
+ gg = Number ( ( g * m ) / w ) 
  , 
 thekg = Number 
-( gg * kg  / g ) ,
-the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
+( gg * kg / g ) ,
+the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
 
  document . getElementById ('thekg') . lastElementChild
 .remove ( ) ; document . getElementById ('the') .       
@@ -38,21 +38,9 @@ the = Number( v / ( ( ( tall / 6 ) * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  document.getElementById('thekg') . innerHTML=[ '<p>' , thekg , '</p>' ].join ('') ; 
  document.getElementById('the') . innerHTML=[ '<p>' , the , '</p>' ].join('') ; 
  
-  document.getElementById('v') . innerHTML=[ ' <p> ' , v , '</p>' ]. join ('') ; } ) ;
+  document.getElementById('v') . innerHTML=[ '<p>' , v , '</p>' ]. join ('') ; } ) ;
    
-
- 
- 
- 
-  
- 
- /* 2 ]= .] ee  8 - { body ^1 > ee  =""  = '< 0 '</>'  write embed = embed  div' getElementsByTagName 'document value item p ) setAttributeNS Number see ) ^ ) )     
+ /* 2 ]= .] ee  8body ^1 > ee  =""  = '< 0 '</>'  write embed = embed  div' getElementsByTagName 'document value item p ) setAttributeNS Number see ) ^ ) )     
  m  */ </script> 
- 
-  
- 
    
- 
- 
- 
 </body> </html> 
