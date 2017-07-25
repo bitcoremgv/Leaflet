@@ -35,7 +35,7 @@ document.body. addEventListener ( 'input' ,
  m = document.getElementById('m'). value ,
 tall = document.getElementById('tall') . value ,
 v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ,
-  
+    
  
 
 
