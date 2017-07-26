@@ -7,7 +7,7 @@
 <body>
 <input id="kg" value="80" > your weight kg </input> <br/>
 <input  id="m"  value="400"> the highest centimeter   at </input> <br/>
-<input id="tall" value="240"> the highest centimeter    </input> <br/>
+<input id="tall" value="240"> the highest centimeter standing    </input> <br/>
    
   <canvas id="stockGraph" width="150" height="150">
  Physics(function (world) {
