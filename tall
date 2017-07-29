@@ -24,6 +24,8 @@ v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ) ,
   w  = Number ( tall / 6 ) ,
 g = Number ( ( v^2 ) / ( m * 2 ) ) ,appendChild
  gg = Number ( ( g * m ) / w )  , 
+for (ee = 0; ee < .length; ee++) {
+for (; [ee].m.latlng == e.latlng;) {
 
 thekg = Number 
 ( gg * kg / g ) ,('div')
@@ -34,13 +36,17 @@ the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  lastElementChild . remove ( ) ; 
  
   document . getElementById ('v') . lastElementChild . remove ( ) ;   
-createElement
+
  document.getElementById('thekg') . innerHTML=[ '<p>' , thekg , '</p>' ].join ('') ; 
  document.getElementById('the') . innerHTML=[ '<p>' , the , '</p>' ].join('') ; 
- appendChild
-  document.getElementById('v') . innerHTML=[ '<p>' , v , '</p>' ]. join ('') ; } ) ;
-   document  document  "').
- /* 2 ]= .] ee  8body ^1 > ee =""  ='<  0 '</>' embed = embed div' getElementsByTagName 'document value item p ) setAttributeNS Number see ) ^ ) )     
+ document.getElementById('v') . innerHTML=[ '<p>' , v , '</p>' ]. join ('') ; } ) ;
+;};} ; for (ee = 0; ee < .length; ee++) {   for ( = 0;  < .length; embed+1) { 
+  eval ([ "document.getElementById('embed", embed , "ee" , ee , "').  ] ').innerHTML = [ee] 
+, embed , " ;" ]. join ('') 
+ 1 
+  ) document. 
+. appendChild document createElement document  "'). innerHTML  =+"" ee
+ /* 2 ]=  ee ^  1 > ee = 0 '< '</>' embed = embed div' getElementsByTagName ' value item p setAttributeNS Number see ) ^ ) )     
  m  */ </script> 
-   
+ 
 </body> </html> 
