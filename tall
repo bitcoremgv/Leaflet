@@ -32,7 +32,7 @@ thekg = Number
 the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
 
  document . getElementById ('thekg') . lastElementChild
-.remove ( ) ; document . getElementById ('the') .       
+.remove ( ) ;   document . getElementById ('the') .       
  lastElementChild . remove ( ) ; 
  
   document . getElementById ('v') . lastElementChild . remove ( ) ; 
@@ -41,12 +41,12 @@ the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  document.getElementById('the') . innerHTML=[ '<p>' , the , '</p>' ].join('') ; 
  document.getElementById('v') . innerHTML=[ '<p>' , v , '</p>' ]. join ('') ; } ); 
 ;};} ; for (ee = 0; ee < .length; ee++) {   for (   = 0;  < .length; embed+1) { 
-  eval ([ "document.getElementById('embed", embed ,"ee",ee,"').  black    ='      ].join "" ( ) [ee] 
+  eval ([ "document.getElementById('embed", embed ,"ee",ee,"').   ='black      ].join ("") [ee] 
 , embed , " ;" ]. join ('') 
 <iframe style="width: 100%; height: 100%; overflow: hidden;" width="100" height="100" scrolling="no">Iframes not supported</iframe>
-<iframe style="width: 100%; height: 100%; overflow: hidden;"  =""  width="100" height="100" scrolling="no"> </iframe>
-<iframe style="width: 100%; height: 100%; overflow: hidden;"  ="embed',embed, 'ee' ,ee,'" width="1" height="  100" scrolling="no">Iframes not supported</iframe>
-  ) document. = ('embed", embed ,"ee",ee,"').  = div embed", embed( ","ee",ee, = = "
+<iframe style="width: 100%; height: 100%; overflow: hidden;" border width="100" height="100" scrolling="no"> </iframe>
+<iframe style="width: 100%; height: 100%; overflow: hidden;" ="" ="embed',embed, 'ee' ,ee,'" width="1" height="  100" scrolling="no">Iframes not supported</iframe>
+  ) document. = ('embed", embed ,"ee",ee,"').  = div embed", embed( ","ee",ee, = = "bgcolor
  appendChild document createElement. document ]=  1 "'). innerHTML =+"<div > </html> " ee.". )  )  
  /* 2   ee ^ 1 > ee 0 '< '</>' embed = embed div' getElementsByTagName / 'innerHTML value item p setAttributeNS Number see ) ^ ) )     
  m  */ </script> 
