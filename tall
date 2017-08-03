@@ -39,14 +39,16 @@ the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  document.getElementById('the') . innerHTML=[ '<p>' , the , '</p>' ].join('') ; 
  document.getElementById('v') . innerHTML=[ '<p>' , v , '</p>' ]. join ('') ; } ); 
  ;};} ; for (ee = 0; ee < 100 ; ee++) {   for ( embed = 0; embed < 100 ; embed+1) { 
- document. getElementById ("").innerHTML =+.length[ee] '<iframe style="width: 100%; height: 100%; overflow: hidden;" border="0" padding="" id="embed',embed, 'ee' ,ee,'" width="1" height="1" scrolling="no">Iframes not supported</iframe>     
-appendChild document createElement ,,, ) "" . 
-for ( ee = 0; ee <   .length; ee++){ 
-for ( embed =   ; embed == e. ; .){ 
- for ( ee = 0; ee <   .length; ee++){ 
-    ( ee = 0; ee <   .length; ee++){  
-    ); ].join ('') bgcolor [ee] width
- eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='   '" ].join("")  /* 2 ee ^ 1 >'</>'  =  embed div' getElementsByTagName / ",ee.'innerHTML value item p setAttributeNS Number see ) ^ ) )     
+ document. getElementById ("").innerHTML =+[ '<iframe style="width: 100%; height: 100%; overflow: hidden;" border="0" padding="" id="embed',
+  embed,'ee',ee,'" width="1" height="1" scrolling="no">Iframes not supported</iframe> '] .
+ ].join ('')   appendChild document createElement ,,, ."". ) /* 2 ee ^ 1 >'</>' = embed length ee
+for ( ee = 0; ee <    .length; ee++){ 
+for ( embed =   ; embed <  e.; ee++){  
+ for ( ee = 0; ee ==  .length;){ 
+    ( ee = 0; ee ==  .length; ee++){  
+);
+   < bgcolor [ee] width
+ eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='   '" ].join("")  div getElementsByTagName / ",ee.'innerHTML value item p setAttributeNS Number see ) ^ ) )     
   eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ].join("") 
 <iframe style="width: 100%; height: 100%; overflow: hidden; height="" scrolling="no">Iframes not supported</iframe>
  <iframe style="width: 100%; height: 100%; overflow: hidden;  ="100" height="100" scrolling="no"> </iframe>
