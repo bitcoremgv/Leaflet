@@ -8,12 +8,12 @@
 <input id="kg" value="80" > your weight kg </input> <br/>
 <input  id="m"  value="400"> the highest centimeter at    </input> <br/>
 <input id="tall" value="240"> the highest centimeter standing </input> <br/>
-   
+    
  <div display   > <nobr > your velocity at take off is <div id="v"> <p> </p> </div> m/s </nobr>   
   <nobr> it is using your legs for lifting jump
  <div id="thekg"> <p> </p> </div> kg </nobr> 
-  <nobr> for <div id="the"> <p> </p> </div> of seconds </nobr>  <p> </p> 
-</div> <div display     > </div > <p> </p>
+  <nobr> for <div id="the"> <p> </p> </div> of seconds </nobr>  <p> </p>  
+</div> <div       > </div > <p> </p>
  <br/> <script type="text/javascript"> 
 document.body. addEventListener ( 'input' ,
   function(   ) { 
@@ -38,22 +38,22 @@ the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  document.getElementById('thekg') . innerHTML=[ '<p>' , thekg , '</p>' ].join ('')   
  document.getElementById('the') . innerHTML=[ '<p>' , the , '</p>' ].join('')  , ,,
  document.getElementById('v') . innerHTML=[ '<p>' , v , '</p>' ]. join ('') ; } ); 
-  ; 
+    
  for (ee = 0; ee < 100 ; ee++) {   for ( embed = 0; embed < 100 ; embed+1) { 
  document. getElementById ("").innerHTML =+[ '<iframe style="width: 100%; height: 100%; overflow: hidden;" border="0" ="" id="embed',
-  embed,'ee',ee,'" width="1" height="1" scrolling="no">Iframes not supported</iframe> ']. 
-   join(''); ="0"padding
- ; black =  .e. <.length  value ."". length appendChild document ee++ createElement   /* 2 ee ^ 1 >'</>' = length ee
+  embed,'ee',ee,'"  ="0" width="1" height="1" scrolling="no">Iframes not supported</iframe> ']. 
+   join('');  padding
+ ; black =     .e.<.length value ."". length appendChild document ee++ createElement   /* 2 ee ^ 1 >'</>' = length ee
 for ( ee = 0 ; ee < height      ; ee++){ 
-for ( embed = 0 ; embed <  width   ; embed++){    
+for ( embed = 0 ; embed < width ; embed++){    
  for (; ee == black ;){ 
-  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='grey   '" ].join("")  )      p  Number   ) ^ ) )     
-   ;
-    (; ee == black ;){  bgcolor embed[ee] /",ee.'length .
-   eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ].join("") ) ; ].
-;};} ;  <iframe  =": 100%; : 100%   overflow: hidden height="" scrolling="no">Iframes not supported</iframe>innerHTML setAttributeNS
- <iframe  =": 100%; height: 100%; overflow: hidden;  ="100" height="100" scrolling="no"> </iframe>item
- .) document.  ('embed",= embed ,"ee",ee,"') "= div embed embed "ee",ee, ="bgcolor 
+  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='grey   '" ].join("") )      ) )     
+   ;};
+    (; ee ==   black ;){ 
+ eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ].join("") ) ;     ].p)
+ };   <iframe  =": 100%; : .100%.'length ee/",[ee] embed bgcolor overflow: hidden height="" scrolling="no">Iframes not supported</iframe>innerHTML setAttributeNS
+ <iframe =": 100%  height: 100%; overflow: hidden;  ="100" height="100" scrolling="no"> </iframe>item Number
+; .) document.  ('embed",= embed ,"ee",ee,"') "= div embed embed "ee",ee, ="bgcolor 
   m */ </script> getElementsByTagName
  getElementById
 </body> </html> 
