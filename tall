@@ -11,7 +11,7 @@
     
  <div> <nobr float= "left" position="absolute">  your velocity at take off is <div id="v" float="left" position="absolute" > <p > </p> </div> m/s </nobr>   
   <nobr float ="left" position="absolute">  it is using your legs for lifting 
- <div id="thekg" float="left" position="">     <p> </p> </div> kg </nobr> 
+ <div id="thekg" float="left" position="absolute">     <p> </p> </div> kg </nobr> 
   <nobr float="left" position ="absolute"> for <div id="the" float= "left" position= "absolute" > <p> </p> </div> of seconds </nobr>  <p> </p>  
 </div> <div > </div > <p> </p>  
  <br/> <script type="text/javascript"> 
@@ -33,18 +33,18 @@ the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
 .remove ( ) ;   document . getElementById ('the') .       
  lastElementChild . remove ( ); 
     
-  document . getElementById ('v').lastElementChild.remove ();  
+  document . getElementById ('v'). lastElementChild.remove ();  
  
  document.getElementById('thekg') . innerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
  document.getElementById('the') . innerHTML=[ '<p float="left" position="absolute" >' , the , '</p>' ].join('') , 
- document.getElementById('v') . innerHTML=[ '<p float="left" position="absolute" >' , v , '</p>' ]. join ('')   ;
+ document.getElementById('v') . innerHTML=[ '<p float="left" position="absolute" >' , v , '</p>' ]. join ('') ;
     height= 100 ; width=100 ; 
  for (ee = 0; ee < height ; ee++) {  
  for ( embed = 0; embed < width ; embed+1) { 
  document. getElementById ("  ").innerHTML =+[ '<iframe style="width: 100%; height: 100%;  overflow: hidden;" border="0" id="embed',
   embed,'ee',ee,'" padding="0" width="1" height="1" scrolling="no">Iframes not supported</iframe> ']. 
    join(''); /*=
-  }!= ),= }};,  black = Object.create( embed :.''.  , ee :  ,rayon :   ,   :  . length value length appendChild document ee++    2 ee = length ee) 
+  }!= ),= }};,  black = Object.create( embed: .''.   , ee :  ,rayon:    ,   :  . length value length appendChild document ee++    2 ee = length ee) 
 }); for ( ee = 0 ; ee < height ; ee++){ 
 for ( embed = 0 ; embed < width ; embed++){ 
  for (; ee != black ;){ :
@@ -53,8 +53,8 @@ for ( embed = 0 ; embed < width ; embed++){
     (; ee == black ;){ 
  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ].join("") )       
  }; }} ;             < 100% e.<  .%.'length ee/  [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
- <iframe == 100%  %getElementsByTagName overflow:  hidden 100 " height no>no </iframe>item Number )].
+ <iframe == 100% %getElementsByTagName overflow:  hidden 100 " height no>no </iframe>item Number )].
 ;) .) getElementById document .(' embed  ee  div embed embed "ee",ee, bgcolor createElement
-  m */ })  ; </script> 
+  m */ }) ; </script> 
  
 </body> </html> 
