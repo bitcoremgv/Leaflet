@@ -5,7 +5,7 @@
 <title></title>
 </head> 
 <body>
-<input id="kg" value="80" > your weight kg </input> <br/>
+<input id="kg" value="80"> your weight kg </input> <br/>
 <input  id="m"  value="400"> the highest centimeter at jump </input> <br/>
 <input id="tall" value="240"> the highest centimeter standing </input> <br/>
     
@@ -39,20 +39,20 @@ the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;
  document.getElementById('the') . innerHTML=[ '<p float="left" position="absolute" >' , the , '</p>' ].join('') , 
  document.getElementById('v') . innerHTML=[ '<p float="left" position="absolute" >' , v , '</p>' ]. join ('') ;
     height= 100 ; width=100 ; 
- for (ee = 0; ee < height ; ee++) {  
+ for (ee = 0; ee < height ; ee++) { 
  for ( embed = 0; embed < width ; embed+1) { 
  document. getElementById ("  ").innerHTML =+[ '<iframe style="width: 100%; height: 100%;  overflow: hidden;" border="0" id="embed',
   embed,'ee',ee,'" padding="0" width="1" height="1" scrolling="no">Iframes not supported</iframe> ']. 
-   join(''); /* 
-  }!=  }};   black = Object.create({   ,=,:    ,embed:    , ee :  ,rayon:    ,perimetre    :  .  value length appendChild document ee++    2 ee = length ee) 
-}); for ( ee = 0 ; ee < height ; ee++){ 
+   join(''); 
+    }}; /*  black = embed: ,ee:   ,rayon:    ,perimetre    :  .      ee++    2 ee = length ee 
+}); for ( ee = 0 ; ee < height ; ee++){ //
 for ( embed = 0 ; embed < width ; embed++){ 
- for (; ee != black ;){  
+ 
+ eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor = black ' " ].join("") )       
+ }; }} ;   for (; ee != black ;){ {  , ,=, document appendChild: Object.create(value)
   eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='grey'" ].join("") )        
- ;};  
- =     (; ee == black ;){ ;){
- eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor ='black'" ].join("") )       
- }; }} ;               100%< e.<  .%.'length ee/  [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
+ black ;};= ee(;==}!= ;){length
+       ;){' 100%< e.<  .%.'length ee /  [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
  <  == 100% length%getElementsByTagName ;)overflow  hidden 100 " height no>no </iframe>item Number )].
 ;) .) getElementById document .''. ) .(' embed  ee  div embed embed "ee",ee, bgcolor createElement
   m */ ;){ }) ;  </script> ;){
