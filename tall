@@ -27,7 +27,7 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
 
 thekg = Number 
 ( gg * kg / g ) ,  
-the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
+the = Number( v /    ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
 the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
  document . getElementById ('thekg') . lastElementChild
 .remove ( ) ;   document . getElementById ('the').        
