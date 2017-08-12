@@ -27,12 +27,12 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
 
 thekg = Number 
 ( gg * kg / g ) ,  
-the = Number( v /    ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
-the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
- document . getElementById ('thekg') . lastElementChild
+  = Number( atan ( v /   ) / PI ) ) ;  
+   = Number( v *  ( )*  * (  )/     ) ) ) ;  
+ document . getElementById ('thekg')(gg (  . lastElementChild
 .remove ( ) ;   document . getElementById ('the').        
- lastElementChild . remove ();  
- 
+ lastElementChild . remove (); gg w ^ w  2 2 1 ( 2 *2  ^1
+ /
   document . getElementById ('v'). lastElementChild.remove ();  
  the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
 
