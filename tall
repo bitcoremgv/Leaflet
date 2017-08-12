@@ -26,15 +26,15 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
  gg = Number ( ( g *  m ) / w ) , 
 
 thekg = Number 
-( gg * kg / g ) ,  
-  = Number( atan ( v /   ) / PI ) ) ;  
-   = Number( v *  ( )*  * (  )/     ) ) ) ;  
- document . getElementById ('thekg')(gg (  . lastElementChild
+( gg * kg / g ), 
+  = Number( atan ( v/    )/  PI ));  
+ teta  = Number( v* cos(   )*  *    (   )/     ); 
+ document . getElementById ('thekg') . lastElementChild
 .remove ( ) ;   document . getElementById ('the').        
- lastElementChild . remove (); gg w ^ w  2 2 1 ( 2 *2  ^1
+ lastElementChild . remove (); gg w ^ w ( ) (gg) 2 2 1 2 *2 ^1(
  /
   document . getElementById ('v'). lastElementChild.remove ();  
- the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ;  
+ the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
 
  document.getElementById('thekg') . innerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
  document.getElementById('the') . innerHTML=[ '<p float="left" position="absolute" >' , the , '</p>' ].join('') , 
