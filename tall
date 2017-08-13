@@ -28,10 +28,10 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
 
 
 thekg = Number( gg * kg / g ) , 
- atan   document . , = ("  ),   teta = Number( Math .atan(v/ atan )/ PI ));  
-    = Number( v*  /.  cos(teta )* atan * Math  sin( teta    )/g);  
+ atan = document. getElementById ("  ),    ./ , teta = Number( Math . .atan(v/ atan )/ PI ));  
+    = Number( v*   . cos(teta )* atan * Math     .sin( teta )/g);  
  document . getElementById ('thekg') . lastElementChild
-.remove ( ) ;   document .getElementById getElementById ('the'). 
+.remove ( ) ;   document . getElementById ('the'). 
  lastElementChild . remove (); 
   document . getElementById ('v'). lastElementChild.remove ();  
  gg w ^ w (  (gg) 2 2 1 2 *2 ^1 
