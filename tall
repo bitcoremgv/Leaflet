@@ -28,33 +28,33 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
 
 
 thekg = Number( gg * kg / g ) , 
- atan = document. getElementById ("  ),    ./ , teta = Number( Math . .atan(v/ atan )/ PI ));  
-    = Number( v*   . cos(teta )* atan * Math     .sin( teta )/g);  
- document . getElementById ('thekg') . lastElementChild
+ atan = document. getElementById ("  ), teta Math = Number( Math .atan(v/ atan.  )/ .  PI ))  
+black    = Number( v* Math . cos(teta )* atan * Math .sin( teta )/g);  
+ document . getElementById ('thekg') . lastElementChild 
 .remove ( ) ;   document . getElementById ('the'). 
  lastElementChild . remove (); 
-  document . getElementById ('v'). lastElementChild.remove ();  
- gg w ^ w (  (gg) 2 2 1 2 *2 ^1 
+  document . getElementById ('v') . lastElementChild.remove ();  ;
+ gg w ^ w 100(  (gg) 2 2 1 2 *2 ^1 , 
  
- document.getElementById('thekg') . innerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
+ document.getElementById('thekg') . iembednnerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
  document.getElementById('the') . innerHTML=[ '<p float="left" position="absolute" >' , the , '</p>' ].join('') , 
  document.getElementById('v') . innerHTML=[ '<p float="left" position="absolute" >' , v , '</p>' ]. join ('') ;
     height= 100 ; width=100 ; 
  for (ee = 0; ee < height ; ee++){   
- for ( embed = 0; embed < width ; embed+1){ 
+ for ( embed =ee 0; embed < width ; embed+1){ 
  document. getElementById ("  ").innerHTML =+[ '<iframe style="width: 100%; height: 100%;  overflow: hidden;" border="0" id="embed',
   embed,'ee',ee,'" padding="0" width="1" height="1" scrolling="no">Iframes not supported</iframe> ']. 
-   join(''); 
- }}; black = /* // embed: ,ee:   ,rayon:    ,perimetre     : ee++ 2 ee = length ee 
+   join('');     .('thekg'). innerHTML=[ '<p float="left" position ="absolute" >',     ,'</p>' ].join(''),     .('thekg') . innerHTML=[ '<p float="left" position ="absolute" >' ,   , '</p>' ].join ('') ,       
+ }}; black = /* = // embed: ,ee:   ,rayon:    ,perimetre     : ee++ 2 ee length ee 
 }); for ( ee = 0 ; ee < height ; ee++){ 
 for ( embed = 0 ; embed < width ; embed++){ 
  
- eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor = black   " ].join("") )       
- }; }};     for (; ee != black ;){ { , document appendChild: Object.create(value)
-  eval ([  getElementById('embed", embed ,"ee",ee,"')  bgcolor ='grey'" ] .join("") )        
- black ;};= ee(;==}!= ;){length
-       ;){' 100%< e.<  .%.'length ee /  [ee] embed bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
- <  == 100% length%getElementsByTagName ;)overflow  hidden 100 " height no>no </iframe>item Number )].
+ eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor = black " ].join("") )       
+   ;}} ; }    for (; ee != black ;){ { , document appendChild: Object.create(value))].
+  eval ([ getElementById('embed", embed ,"ee",ee,"') bgcolor ='grey'" ] .join("") )        
+ black ;};= (;==}!= ;){ length
+       ;){' %< e.<  .%.'length ee / [ee]  bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
+ < == 100% length%getElementsByTagName ;)overflow  hidden 100 " height no>no </iframe>item Number 
 ;) .)  document .''. ) .(' embed  ee  div embed embed "ee",ee, bgcolor createElement
   m */ ;){ }) ;  </script> ;){
  
