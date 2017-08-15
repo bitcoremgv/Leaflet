@@ -15,6 +15,7 @@
   <nobr float="left" position ="absolute"> for <div id="the" float= "left" position= "absolute" > <p> </p> </div> of seconds </nobr>  <p> </p>  
 </div> <div > </div > <p> </p> 
  <br/> <script type="text/javascript"> 
+ 
 document.body. addEventListener ( 'input' ,
   function(   ) { 
  var kg = document.getElementById('kg'). value ,
@@ -26,15 +27,17 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
  gg = Number ( ( g *  m ) / w ) , 
   the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
 
+ the = Number( v ( ( / w * 2 * )   
+ 
 
-thekg = Number( gg * kg / g ) , 
- atan = document. getElementById ("  ), teta Math = Number( Math .atan(v/ atan.  )/ .  PI ))  
-black    = Number( v* Math . cos(teta )* atan * Math .sin( teta )/g);  
+thekg = Number( gg * kg / g ) , atan 1 2 gg^) );
+ atan = document. getElementById ("  ), teta  = Number( Math .atan(v/ atan )/ Math . PI ))  
+  black = Number( v* Math . cos(teta)* atan * Math .sin( teta )/g) * ( 2^(  1 2  )/   ) ;  
  document . getElementById ('thekg') . lastElementChild 
-.remove ( ) ;   document . getElementById ('the'). 
+.remove ( ) ;   document . getElementById ('the'). .
  lastElementChild . remove (); 
   document . getElementById ('v') . lastElementChild.remove ();  ;
- gg w ^ w 100(  (gg) 2 2 1 2 *2 ^1 , 
+ gg w ^ w 100( gg  2 2 1 ,  
  
  document.getElementById('thekg') . iembednnerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
  document.getElementById('the') . innerHTML=[ '<p float="left" position="absolute" >' , the , '</p>' ].join('') , 
@@ -42,9 +45,9 @@ black    = Number( v* Math . cos(teta )* atan * Math .sin( teta )/g);
     height= 100 ; width=100 ; 
  for (ee = 0; ee < height ; ee++){   
  for ( embed =ee 0; embed < width ; embed+1){ 
- document. getElementById ("  ").innerHTML =+[ '<iframe style="width: 100%; height: 100%;  overflow: hidden;" border="0" id="embed',
+ document. getElementById (" thethe   ").innerHTML =+[ '<iframe style="width: 100%; height: 100%;  overflow: hidden;" border="0" id="embed',
   embed,'ee',ee,'" padding="0" width="1" height="1" scrolling="no">Iframes not supported</iframe> ']. 
-   join('');     .('thekg'). innerHTML=[ '<p float="left" position ="absolute" >',     ,'</p>' ].join(''),     .('thekg') . innerHTML=[ '<p float="left" position ="absolute" >' ,   , '</p>' ].join ('') ,       
+   join('');     thekg.(''). innerHTML=[ '<p float="left" position ="absolute" >',     ,'</p>' ].join(''),     .('thekg') . innerHTML=[ '<p float="left" position ="absolute" >' ,   , '</p>' ].join ('') ,       
  }}; black = /* = // embed: ,ee:   ,rayon:    ,perimetre     : ee++ 2 ee length ee 
 }); for ( ee = 0 ; ee < height ; ee++){ 
 for ( embed = 0 ; embed < width ; embed++){ 
@@ -52,10 +55,10 @@ for ( embed = 0 ; embed < width ; embed++){
  eval ([ "document. getElementById('embed", embed ,"ee",ee,"'). bgcolor = black " ].join("") )       
    ;}} ; }    for (; ee != black ;){ { , document appendChild: Object.create(value))].
   eval ([ getElementById('embed", embed ,"ee",ee,"') bgcolor ='grey'" ] .join("") )        
- black ;};= (;==}!= ;){ length
-       ;){' %< e.<  .%.'length ee / [ee]  bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
+ black ;};= (;==}!= ;){ length     
+       ;){' %< e.<  .%.'length ee / [ee] bgcolor overflow hidden height scrolling >Iframes not supported</iframe>innerHTML setAttributeNS
  < == 100% length%getElementsByTagName ;)overflow  hidden 100 " height no>no </iframe>item Number 
-;) .)  document .''. ) .(' embed  ee  div embed embed "ee",ee, bgcolor createElement
+;) .)  document .''. ) .(' embed ee div embed embed "ee",ee, bgcolor createElement
   m */ ;){ }) ;  </script> ;){
  
 </body> </html> 
