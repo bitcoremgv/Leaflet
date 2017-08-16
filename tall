@@ -27,16 +27,17 @@ g = Number ( ( v^2 ) / ( m * 2 ) ) ,
  gg = Number ( ( g *  m ) / w ) , 
   the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ; 
 
- the = Number( v ( 1 (/w*2*). 
- 
 
-thekg = Number( gg * kg / g ) , atan 1 2 gg 
- atan = document. getElementById ("  ), teta = Number( Math .atan(v/ atan )/ Math . PI ))  
-  black = Number( v* Math . cos(teta)* atan * Math .sin( teta )/g) * ( 2^(   2 )/   )^)); ;  
+
+thekg = Number( gg * kg / g) ,    
+ atan = document. getElementById (" atan ), teta = Number ( Math .atan(v/ atan )/ Math . PI )    
+  black = Number( v* Math . cos(teta)* atan * Math .sin( teta )/g) *    / 
+  ( 2^(2*2*2)   1) ;
+    )^)); ;  the Number v = ( (1(/w.gg)
  document . getElementById ('thekg') . lastElementChild 
 .remove ( ) ;   document . getElementById ('the'). 
  lastElementChild . remove (); 
-  document . getElementById ('v') . lastElementChild.remove ();  ;
+  document . getElementById ('v') . lastElementChild.remove ();  
  gg w ^ w 100( gg  2 2 1 ,  
  
  document.getElementById('thekg') . iembednnerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
