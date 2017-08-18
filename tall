@@ -25,22 +25,24 @@ v = Number ( ( 9.80665 * m * 2 ) ^ ( 1 / 2 ) ,
   w  = Number ( tall / 6 ) ,  
 g = Number ( ( v^2 ) / ( m * 2 ) ) , 
  gg = Number ( ( g *  m ) / w ) , 
-  the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) )  
+  the = Number( v / ( ( w * 2 * gg ) ^ ( 1 / 2 ) ) ) ,
 
 
 
 thekg = Number( gg * kg / g) ,    
- atan = document. getElementById ("atan   ), teta = Number ( Math.atan(v/ atan )/ Math . PI )    
-  black = Number(( v* Math . cos(teta)* atan * Math.sin( teta )/g*   )/    ;
-   =    ( (2^(2*2*2)   1) )   , 
-   Number v (1w. gg; ; /
+ atan = document. getElementById ("atan") , teta = Number ( Math.atan(v/ atan )/ Math . PI ) ,    
+   black = Number ( (( v* Math . cos(teta) * atan * Math.sin( teta ) / g * -(2^(2*2*2)-1)) - 
+ (-(2^(2*2*2)-1)) )
+ / 
+ 2^(2*2) ); 
  document . getElementById ('thekg') . lastElementChild 
 .remove ( ) ;   document . getElementById ('the'). 
  lastElementChild . remove (); 
   document . getElementById ('v') . lastElementChild.remove ();  
 )^) gg w w ^();remove 100 gg 2 2 ee 1 the 
             
- document.getElementById('thekg') . iembednnerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
+ document ( ( = = v, 1w.=((*2 1)Number gg; Number ; /
+.getElementById('thekg') . iembednnerHTML=[ '<p float="left" position ="absolute" >' , thekg , '</p>' ].join ('') ,       
  document.getElementById('the') . innerHTML=[ '<p float="left" position="absolute" >' , the , '</p>' ].join('') , 
  document.getElementById('v') . innerHTML=[ '<p float="left" position="absolute" >' , v , '</p>' ]. join ('') ;
  for ( ee = 0 ; ee < height ; ee++){ 
